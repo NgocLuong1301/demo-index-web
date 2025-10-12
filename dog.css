@@ -1,0 +1,36 @@
+body{
+  background-color: white;
+  font-family: Georgia, serif;
+  margin: 0;
+  padding: 0;
+}
+h1{
+  font-family: "Brush Script MT", cursive; /* kiểu chữ uốn lượn */
+  font-size: 36px;                        /* cỡ chữ */
+  font-style: italic;                     /* chữ nghiêng */
+  color: darkblue;                        /* màu xanh tím */
+  background-color:lightgray ;
+  text-align: center;                     /* căn giữa */
+  padding: 20px;                          /* tạo khoảng cách */
+  margin: 0;
+}
+.bang-anh {
+  border-collapse: collapse; /* làm dính các ô lại với nhau */
+}
+
+.bang-anh td {
+  padding: 0; /* bỏ khoảng trống trong ô */
+  margin: 0;
+}
+
+.bang-anh{
+  width: 100%;
+  background-color: yellow;
+  border-collapse: collapse;
+  text-align: center;
+}
+p{
+  background-color: lightgray;
+}
+
+   
