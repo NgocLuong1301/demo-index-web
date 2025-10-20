@@ -1,0 +1,45 @@
+.bb {
+    font-family: "Times New Roman", serif;
+    margin: 50px;
+    background-color: antiquewhite;
+    height: 70vh;
+    width: 500px;
+}
+h1{
+    font-size: 15px;
+    color: blue;
+}
+.ll{
+    background-color: darkgray;
+}
+.kk {
+  float: right;
+  width: 70px;        /* Thu nhỏ ảnh cho cân đối */
+  margin: 10px;       /* Tạo khoảng cách với chữ */
+}
+
+.kk img {
+  width: 100%;         /* Ảnh tự co vừa khung */
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+tr{
+    text-align: center;
+    color: aqua;
+}
+.m{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blue
+}
+.mm{
+    background-color: yellow;
+}
+.nn{
+    background-color: yellow;
+}
+u{
+    color: blue;
+}

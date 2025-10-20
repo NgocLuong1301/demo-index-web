@@ -1,0 +1,57 @@
+.bb {
+    font-family: "Times New Roman", serif;
+    margin: 50px;
+    background-color: antiquewhite;
+    height: 100vh;
+    width: 500px;
+}
+h1{
+    font-size: 15px;
+    color: blue;
+}
+.ll{
+    background-color: darkgray;
+}
+.kk {
+  float: right;
+  width: 60px;        /* Thu nhỏ ảnh cho cân đối */
+  margin: 7px;       /* Tạo khoảng cách với chữ */
+}
+
+.kk img {
+  width: 100%;         /* Ảnh tự co vừa khung */
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.mm{
+    background-color: yellow;
+}
+.mm table{
+    margin: auto;
+    border-collapse: separate;
+    border-spacing: 10px; /* khoảng cách giữa các ảnh */
+    }
+.mm img{
+  width: 80px; /* điều chỉnh kích thước ảnh */
+  height: auto;
+  display: block;
+  margin: 0 auto; /* căn giữa ảnh trong từng ô */
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.ff{
+    background-color: darkgray;
+}
+
+u{
+    color: blue;
+    }
+.m{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: blue;
+    }
+.dd{
+    margin: 50px;
+}
