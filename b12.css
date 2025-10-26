@@ -1,0 +1,77 @@
+body{
+    background-color: antiquewhite;
+}
+.tt{
+    width: 1450px;
+    height: 50vh;
+    background-color: darkgrey;
+    margin: 15px 15px;
+    padding: 0px;
+}
+.tt img{
+  width: 100%;
+  height: 60%;
+  object-fit: cover; 
+}
+span{
+    background-color: beige;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    margin: 150px;
+}
+h1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: antiquewhite;
+}
+.uu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Dòng chứa ảnh */
+.row {
+  display: flex;
+  flex-wrap: wrap; /* Cho phép xuống hàng khi thiếu chỗ */
+  justify-content: center;
+  gap: 20px; /* Khoảng cách giữa các ảnh */
+  width: 90%;
+  max-width: 1300px;
+}
+
+/* Ảnh */
+.row img {
+  width: 200px;
+  height: 250px;
+  border-radius: 50% / 40%; /* Bo tròn dạng oval */
+  border: 3px solid #5c8b4a;
+  object-fit: cover;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.row img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Responsive: tự co khi màn hình nhỏ */
+@media (max-width: 1000px) {
+  .row img {
+    width: 30%;
+    height: 220px;
+  }
+}
+@media (max-width: 700px) {
+  .row img {
+    width: 45%;
+    height: 200px;
+  }
+}
+@media (max-width: 500px) {
+  .row img {
+    width: 90%;
+    height: 180px;
+  }
+}
